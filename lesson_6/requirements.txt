@@ -1,0 +1,15 @@
+click==8.1.2
+Flask==2.1.1
+Flask-Cors==3.0.10
+Flask-SQLAlchemy==2.5.1
+greenlet==1.1.2
+gunicorn==20.1.0
+importlib-metadata==4.11.3
+itsdangerous==2.1.2
+Jinja2==3.1.1
+MarkupSafe==2.1.1
+psycopg2-binary==2.9.3
+six==1.16.0
+SQLAlchemy==1.4.34
+Werkzeug==2.1.0
+zipp==3.7.0

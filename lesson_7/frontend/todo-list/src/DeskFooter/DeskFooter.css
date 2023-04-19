@@ -1,0 +1,46 @@
+.desk-footer {
+    border-top: 2px solid var(--constant-grey2);
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.desk-footer__task-count {
+    grid-column: span 1;
+    font-style: italic;
+}
+
+.desk-footer__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.desk-footer__button:hover {
+    color: var(--constant-accent);
+}
+
+.desk-footer__button--active {
+    color: var(--constant-accent);
+}
+
+.desk-footer__button-all {
+    grid-column: 3/4;
+}
+
+.desk-footer__button-active {
+    grid-column: 4/5;
+
+}
+
+.desk-footer__button-complete {
+    grid-column: 5/6;
+
+}

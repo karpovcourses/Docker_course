@@ -1,0 +1,47 @@
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 50px;
+    border-bottom: 1px dashed var(--constant-grey1);
+    column-gap: 20px;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+.task__icon {
+    border: 1px solid var(--constant-black);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    flex-shrink: 0;
+}
+
+.task__icon:hover {
+    outline: var(--outer-focus-border);
+}
+
+.task__icon--complete {
+    background-color: var(--constant-accent);
+}
+
+.task__text {
+    flex-grow: 1;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--constant-black-alpha64);
+    word-break: break-all;
+}
+
+.task__text--complete {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.task__delete-button {
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
